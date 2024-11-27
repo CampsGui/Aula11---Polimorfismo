@@ -1,5 +1,8 @@
-public class jolteon extends Eevee {
-    
+public class Jolteon extends Eevee {
+    public Jolteon(){
+        super("Elétrico", 24.5, 80, 130, "Evolução de Eevee");
+    }
+
     @Override
     public String ataque(){
         return "Trovoada - Thunder Shock";
@@ -13,6 +16,5 @@ public class jolteon extends Eevee {
     @Override
     public String especial(){
         return "Raio - Thunderbolt";
-    }   
-    
+    } 
 }
