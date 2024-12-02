@@ -1,16 +1,16 @@
 public class Glaceon extends Eevee{
   public Glaceon() {
-    super("Gelo", 27.0, 80, 125, "N/A");
+    super("Gelo", 25.9, 80, 65, "Não possui");
 }
 
 @Override
 public String ataque() {
-    return "Sopro Gelado - Ice Breath";
+    return "Vento Congelante - Icy Wind";
 }
 
 @Override
 public String defesa() {
-    return "Escudo de Gelo - Ice Shield";
+    return "Paisagem Nevada - Snowscape";
 }
 
 @Override

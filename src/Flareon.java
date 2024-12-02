@@ -1,6 +1,6 @@
 public class Flareon extends Eevee{
   public Flareon() {
-    super("Fogo", 25.0, 90, 130, "Não possui");
+    super("Fogo", 25.0, 90, 65, "Não possui");
   }
 
   @Override
@@ -10,11 +10,11 @@ public class Flareon extends Eevee{
 
   @Override
   public String defesa() {
-      return "Encanto - Charm";
+      return "Face Assustadora - Scary Face";
   }
 
   @Override
   public String especial() {
-      return "Explosão de Fogo - Fire Blast";
+      return "Chuva de Lava - Lava Plume";
   }
 }

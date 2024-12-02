@@ -1,20 +1,20 @@
 public class Leafeon extends Eevee{
   public Leafeon() {
-    super("Grama", 25.5, 85, 140, "N/A");
+    super("Grama", 25.5, 100, 65, "Não possui");
 }
 
 @Override
 public String ataque() {
-    return "Corte de Folha - Leaf Blade";
+    return "Folha Navalha - Razor Leaf";
 }
 
 @Override
 public String defesa() {
-    return "Escudo de Folhas - Leaf Shield";
+    return "Síntese - Synthesis";
 }
 
 @Override
 public String especial() {
-    return "Tempestade de Folhas - Leaf Storm";
+    return "Giga Dreno - Giga Drain";
 }
 }

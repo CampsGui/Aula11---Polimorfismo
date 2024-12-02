@@ -1,6 +1,6 @@
 public class Vaporeon extends Eevee{
   public Vaporeon() {
-    super("Água", 29.0, 100, 160, "N/A");
+    super("Água", 29.0, 100, 130, "Não possui");
 }
 
 @Override
@@ -10,7 +10,7 @@ public String ataque() {
 
 @Override
 public String defesa() {
-    return "Escudo de Bolha - Bubble Shield";
+    return "Aqua Arco - Aqua Ring";
 }
 
 @Override

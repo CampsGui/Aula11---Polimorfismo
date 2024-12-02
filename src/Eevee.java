@@ -71,5 +71,8 @@ public class Eevee{
         System.out.println("Altura: " + altura + " cm");
         System.out.println("HP: " + hp);
         System.out.println("Subtipo: " + subtipo);
+        System.out.println("Ataque: " + ataque());
+        System.out.println("Defesa: " + defesa());
+        System.out.println("Especial: " + especial());
     }    
 }

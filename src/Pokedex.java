@@ -10,74 +10,47 @@ public class Pokedex {
         Glaceon g = new Glaceon();
         Sylveon s = new Sylveon();
 
-        System.out.println("Eevee");
+        System.out.println("Eu sou: Eevee");
         e.Imprimir();
-        System.out.println("Ataque: " +e.ataque());
-        System.out.println("Defesa: " +e.defesa());
-        System.out.println("Especial: " +e.especial());
 
         System.out.println("\n");
 
-        System.out.println("Vaporeon");
+        System.out.println("Eu sou: Vaporeon");
         v.Imprimir();
-        System.out.println("Ataque: " +v.ataque());
-        System.out.println("Defesa: " +v.defesa());
-        System.out.println("Especial: " +v.especial());
 
         System.out.println("\n");
 
-        System.out.println("Jolteon");
+        System.out.println("Eu sou: Jolteon");
         j.Imprimir();
-        System.out.println("Ataque: " +j.ataque());
-        System.out.println("Defesa: " +j.defesa());
-        System.out.println("Especial: " +j.especial());
 
         System.out.println("\n");
 
-        System.out.println("Flareon");
+        System.out.println("Eu sou: Flareon");
         f.Imprimir();
-        System.out.println("Ataque: " +f.ataque());
-        System.out.println("Defesa: " +f.defesa());
-        System.out.println("Especial: " +f.especial());
 
         System.out.println("\n");
 
-        System.out.println("Espeon");
+        System.out.println("Eu sou: Espeon");
         es.Imprimir();
-        System.out.println("Ataque: " +es.ataque());
-        System.out.println("Defesa: " +es.defesa());
-        System.out.println("Especial: " +es.especial());
 
         System.out.println("\n");
 
-        System.out.println("Umbreon");
+        System.out.println("Eu sou: Umbreon");
         u.Imprimir();
-        System.out.println("Ataque: " +u.ataque());
-        System.out.println("Defesa: " +u.defesa());
-        System.out.println("Especial: " +u.especial());
 
         System.out.println("\n");
 
-        System.out.println("Leafeon");
+        System.out.println("Eu sou: Leafeon");
         l.Imprimir();
-        System.out.println("Ataque: " +l.ataque());
-        System.out.println("Defesa: " +l.defesa());
-        System.out.println("Especial: " +l.especial());
 
         System.out.println("\n");
 
-        System.out.println("Glaceon");
+        System.out.println("Eu sou: Glaceon");
         g.Imprimir();
-        System.out.println("Ataque: " +g.ataque());
-        System.out.println("Defesa: " +g.defesa());
-        System.out.println("Especial: " +g.especial());
 
         System.out.println("\n");
 
-        System.out.println("Sylveon");
+        System.out.println("Eu sou: Sylveon");
         s.Imprimir();
-        System.out.println("Ataque: " +s.ataque());
-        System.out.println("Defesa: " +s.defesa());
-        System.out.println("Especial: " +s.especial());
     }
 }

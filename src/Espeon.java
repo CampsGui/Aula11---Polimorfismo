@@ -1,6 +1,6 @@
 public class Espeon extends Eevee{
   public Espeon() {
-    super("Psíquico", 26.5, 88, 120, "N/A");
+    super("Psíquico", 26.5, 90, 65, "Não possui");
 }
 
 @Override
@@ -10,11 +10,11 @@ public String ataque() {
 
 @Override
 public String defesa() {
-    return "Barreira Psíquica - Psychic Barrier";
+    return "Troca de Força - Power Swap";
 }
 
 @Override
 public String especial() {
-    return "Raio Psíquico - Psychic";
+    return "Raio Psíquico - Psybeam";
 }
 }

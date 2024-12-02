@@ -1,20 +1,20 @@
 public class Umbreon extends Eevee{
   public Umbreon() {
-    super("Noturno", 27.0, 100, 150, "N/A");
+    super("Noturno", 27.0, 100, 95, "Não possui");
 }
 
 @Override
 public String ataque() {
-    return "Mordida - Bite";
+    return "Rosnado - Snarl";
 }
 
 @Override
 public String defesa() {
-    return "Proteção - Protect";
+    return "Raio Lunar - Moonlight";
 }
 
 @Override
 public String especial() {
-    return "Raio Lunar - Moonlight";
+    return "Pulso Sombrio - Dark Pulse";
 }
 }

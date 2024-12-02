@@ -1,16 +1,16 @@
 public class Sylveon extends Eevee{
   public Sylveon() {
-    super("Fada", 23.0, 87, 135, "N/A");
+    super("Fada", 23.5, 100, 95, "Não possui");
 }
 
 @Override
 public String ataque() {
-    return "Luz Encantada - Dazzling Gleam";
+    return "Voz Desarmante - Disarming Voice";
 }
 
 @Override
 public String defesa() {
-    return "Aura Protetora - Protective Aura";
+    return "Tela de Luz - Light Screen";
 }
 
 @Override
